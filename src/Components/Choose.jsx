@@ -1,5 +1,9 @@
 import React from "react";
 import styled from "styled-components";
+import online from "../Images/online.svg"
+import budget from "../Images/budget.svg"
+import board from "../Images/board.svg"
+import api from "../Images/api.svg"
 
 
 const Choose = () =>{
@@ -13,24 +17,24 @@ const Choose = () =>{
                     </div>
                     <div className="app">
                         <div>
-                            <img src="/images/online.svg" alt="" />
+                            <img src={online} alt="" />
                             <h3>Online Banking</h3>
                             <p>Our modern web and mobile <br />applications allow you to keep <br />tracks of your finances whereevrr you <br />are in the world</p>
                         </div>
                         <div>
-                            <img src="/images/budget.svg" alt="" />
+                            <img src={budget} alt="" />
                             <h3>Simple Budgeting</h3>
                             <p>See exactly where your money <br />goes Each month. Receive <br />notifications when you are close to <br />hitting your limits</p>
                         </div>
                         <div>
-                            <img src="/images/board.svg" alt="" />
+                            <img src={board} alt="" />
                             <h3>Fast On boarding</h3>
                             <div>
                                 <p>We don't dp barnches. Open your <br /> account in minutes online and start <br />taking controls of your finances <br />right now.</p>
                             </div>
                         </div>
                         <div>
-                            <img src="/images/api.svg" alt="" />
+                            <img src={api} alt="" />
                             <h3>Open Api</h3>
                             <div>
                                 <p>Manage your savings, investments, <br />pensions and much more from one <br />account. Tracking your money has <br />never been easir.</p>

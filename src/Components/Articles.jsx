@@ -1,5 +1,9 @@
 import React from "react";
 import styled from "styled-components";
+import currency from "../Images/currency.jpg";
+import restaurant from "../Images/restaurant.jpg";
+import plane from "../Images/plane.jpg";
+import confetti from "../Images/confetti.jpg"
 
 
 const Articles = () =>{
@@ -12,7 +16,7 @@ const Articles = () =>{
                 </div>
                 <div className="photo">
                     <div className="what">
-                        <img src="/images/currency.jpg" alt="" />
+                        <img src={currency} alt="" />
                         <div>
                             <p>By Claire Rokshon</p>
                             <h3>Receive Money in any <br />currency with no fees.</h3>
@@ -20,7 +24,7 @@ const Articles = () =>{
                         </div>
                     </div>
                     <div className="what">
-                        <img src="/images/restaurant.jpg" alt="" />
+                        <img src={restaurant} alt="" />
                         <div>
                             <p>By wilson hotten</p>
                             <h3>Treat your self without <br />worrying about money</h3>
@@ -28,7 +32,7 @@ const Articles = () =>{
                         </div>
                     </div>
                     <div className="what">
-                        <img src="/images/plane.jpg" alt="" />
+                        <img src={plane} alt="" />
                         <div>
                             <p>By Wilson Hotton</p>
                             <h3>Take your Easybank card <br />everywhere you go</h3>
@@ -36,7 +40,7 @@ const Articles = () =>{
                         </div>
                     </div>
                     <div className="what">
-                        <img src="/images/confetti.jpg" alt="" />
+                        <img src={confetti} alt="" />
                         <div>
                             <p>By Claire Robinson</p>
                             <h3>Our Invite-only Beta <br />accounts are now lives</h3>

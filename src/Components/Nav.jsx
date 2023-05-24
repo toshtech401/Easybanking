@@ -1,8 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { useState } from "react";
-import open from "./image/open.svg"
-import close from "./image/close.svg"
+import open from "./image/open.svg";
+import close from "./image/close.svg";
+import logo from "../Images/logo.svg"
 
 
 const Nav = () =>{
@@ -18,7 +19,7 @@ const Nav = () =>{
                     <div>
             <nav>
                 <div>
-                    <img src="/images/logo.svg" alt="" />
+                    <img src={logo} alt="" />
                 </div>
                 <div>
                    <ol>
